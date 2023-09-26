@@ -2,8 +2,8 @@
     <main class="py-3">
         <div class="container bg-white">
             <div class="row p-2">
-                <div class="col-3 p-1" v-for=" card  in   state.cards  " v-show="card.archetype === 'Alien'">
-                    <div class="card  h-100">
+                <div class="col-3 p-1" v-for=" card  in   state.cards  " v-show="card.archetype = 'Alien'">
+                    <div class=" card h-100">
                         <div class="card-header p-0">
                             <img class="w-100" :src='card.card_images[0].image_url' alt="">
                         </div>
